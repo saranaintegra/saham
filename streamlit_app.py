@@ -704,7 +704,7 @@ def dataframe():
     elif caridata == 'Fundamental':
         ###### KONTAINER TABS #############
         tab1, tab2, tab3 = st.tabs(['Portofolio','Deviden','Finansial'])
-        st.write('Last Update : 4 Mei 2024')
+        st.write('Last Update : 21 Juli 2024')
         with tab1:
            st.write('Filter Data')
            
@@ -867,7 +867,7 @@ def screener():
         with col1:
             st.markdown('<span style="background-color: #ffc0cb; padding: 3px;">KODE</span> : Emiten Dengan Notasi Khusus', unsafe_allow_html=True)
         with col2:
-            st.caption('Last Update : 4 Mei 2024')
+            st.caption('Last Update : 21 Juli 2024')
         with col3:
             "Jumlah : " + str(scr1.shape[0]) + " Emiten"
     with tab2:
